@@ -1,0 +1,39 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9800;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002f52;
+}
+
+.tópicos {
+    background-color: black   ;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.tópicos__titulo {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.tópicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tópicos__item {
+    margin: 2em 0.5em;
+}
+
+.tópicos__link {
+    color:white ;
+    padding: 1em;
+    background-color: orange;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
